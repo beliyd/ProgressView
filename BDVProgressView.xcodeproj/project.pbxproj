@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66DD830D193A597500312671 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DD830C193A597500312671 /* Foundation.framework */; };
+		66DD830F193A597500312671 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DD830E193A597500312671 /* CoreGraphics.framework */; };
+		66DD8311193A597500312671 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DD8310193A597500312671 /* UIKit.framework */; };
+		66DD8317193A597500312671 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66DD8315193A597500312671 /* InfoPlist.strings */; };
+		66DD8319193A597500312671 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DD8318193A597500312671 /* main.m */; };
+		66DD831D193A597500312671 /* BDVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DD831C193A597500312671 /* BDVAppDelegate.m */; };
+		66DD8320193A597500312671 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66DD831E193A597500312671 /* Main_iPhone.storyboard */; };
+		66DD8323193A597500312671 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66DD8321193A597500312671 /* Main_iPad.storyboard */; };
+		66DD8326193A597500312671 /* BDVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DD8325193A597500312671 /* BDVViewController.m */; };
+		66DD8328193A597500312671 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66DD8327193A597500312671 /* Images.xcassets */; };
+		66DD832F193A597500312671 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DD832E193A597500312671 /* XCTest.framework */; };
+		66DD8330193A597500312671 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DD830C193A597500312671 /* Foundation.framework */; };
+		66DD8331193A597500312671 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DD8310193A597500312671 /* UIKit.framework */; };
+		66DD8339193A597500312671 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66DD8337193A597500312671 /* InfoPlist.strings */; };
+		66DD833B193A597500312671 /* BDVProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DD833A193A597500312671 /* BDVProgressViewTests.m */; };
+		66DD8346193A59A600312671 /* BDVProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DD8345193A59A600312671 /* BDVProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66DD8332193A597500312671 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66DD8301193A597500312671 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66DD8308193A597500312671;
+			remoteInfo = BDVProgressView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66DD8309193A597500312671 /* BDVProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDVProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66DD830C193A597500312671 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66DD830E193A597500312671 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		66DD8310193A597500312671 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		66DD8314193A597500312671 /* BDVProgressView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BDVProgressView-Info.plist"; sourceTree = "<group>"; };
+		66DD8316193A597500312671 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66DD8318193A597500312671 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66DD831A193A597500312671 /* BDVProgressView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BDVProgressView-Prefix.pch"; sourceTree = "<group>"; };
+		66DD831B193A597500312671 /* BDVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDVAppDelegate.h; sourceTree = "<group>"; };
+		66DD831C193A597500312671 /* BDVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDVAppDelegate.m; sourceTree = "<group>"; };
+		66DD831F193A597500312671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		66DD8322193A597500312671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		66DD8324193A597500312671 /* BDVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDVViewController.h; sourceTree = "<group>"; };
+		66DD8325193A597500312671 /* BDVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDVViewController.m; sourceTree = "<group>"; };
+		66DD8327193A597500312671 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		66DD832D193A597500312671 /* BDVProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDVProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66DD832E193A597500312671 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		66DD8336193A597500312671 /* BDVProgressViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BDVProgressViewTests-Info.plist"; sourceTree = "<group>"; };
+		66DD8338193A597500312671 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66DD833A193A597500312671 /* BDVProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDVProgressViewTests.m; sourceTree = "<group>"; };
+		66DD8344193A59A600312671 /* BDVProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDVProgressView.h; sourceTree = "<group>"; };
+		66DD8345193A59A600312671 /* BDVProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDVProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66DD8306193A597500312671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DD830F193A597500312671 /* CoreGraphics.framework in Frameworks */,
+				66DD8311193A597500312671 /* UIKit.framework in Frameworks */,
+				66DD830D193A597500312671 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66DD832A193A597500312671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DD832F193A597500312671 /* XCTest.framework in Frameworks */,
+				66DD8331193A597500312671 /* UIKit.framework in Frameworks */,
+				66DD8330193A597500312671 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66DD8300193A597500312671 = {
+			isa = PBXGroup;
+			children = (
+				66DD8312193A597500312671 /* ProgressView */,
+				66DD8334193A597500312671 /* BDVProgressViewTests */,
+				66DD830B193A597500312671 /* Frameworks */,
+				66DD830A193A597500312671 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66DD830A193A597500312671 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66DD8309193A597500312671 /* BDVProgressView.app */,
+				66DD832D193A597500312671 /* BDVProgressViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66DD830B193A597500312671 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66DD830C193A597500312671 /* Foundation.framework */,
+				66DD830E193A597500312671 /* CoreGraphics.framework */,
+				66DD8310193A597500312671 /* UIKit.framework */,
+				66DD832E193A597500312671 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66DD8312193A597500312671 /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				66DD831B193A597500312671 /* BDVAppDelegate.h */,
+				66DD831C193A597500312671 /* BDVAppDelegate.m */,
+				66DD831E193A597500312671 /* Main_iPhone.storyboard */,
+				66DD8321193A597500312671 /* Main_iPad.storyboard */,
+				66DD8324193A597500312671 /* BDVViewController.h */,
+				66DD8325193A597500312671 /* BDVViewController.m */,
+				66DD8327193A597500312671 /* Images.xcassets */,
+				66DD8313193A597500312671 /* Supporting Files */,
+				66DD8344193A59A600312671 /* BDVProgressView.h */,
+				66DD8345193A59A600312671 /* BDVProgressView.m */,
+			);
+			name = ProgressView;
+			path = BDVProgressView;
+			sourceTree = "<group>";
+		};
+		66DD8313193A597500312671 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66DD8314193A597500312671 /* BDVProgressView-Info.plist */,
+				66DD8315193A597500312671 /* InfoPlist.strings */,
+				66DD8318193A597500312671 /* main.m */,
+				66DD831A193A597500312671 /* BDVProgressView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66DD8334193A597500312671 /* BDVProgressViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				66DD833A193A597500312671 /* BDVProgressViewTests.m */,
+				66DD8335193A597500312671 /* Supporting Files */,
+			);
+			path = BDVProgressViewTests;
+			sourceTree = "<group>";
+		};
+		66DD8335193A597500312671 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66DD8336193A597500312671 /* BDVProgressViewTests-Info.plist */,
+				66DD8337193A597500312671 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66DD8308193A597500312671 /* BDVProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66DD833E193A597500312671 /* Build configuration list for PBXNativeTarget "BDVProgressView" */;
+			buildPhases = (
+				66DD8305193A597500312671 /* Sources */,
+				66DD8306193A597500312671 /* Frameworks */,
+				66DD8307193A597500312671 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BDVProgressView;
+			productName = BDVProgressView;
+			productReference = 66DD8309193A597500312671 /* BDVProgressView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66DD832C193A597500312671 /* BDVProgressViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66DD8341193A597500312671 /* Build configuration list for PBXNativeTarget "BDVProgressViewTests" */;
+			buildPhases = (
+				66DD8329193A597500312671 /* Sources */,
+				66DD832A193A597500312671 /* Frameworks */,
+				66DD832B193A597500312671 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66DD8333193A597500312671 /* PBXTargetDependency */,
+			);
+			name = BDVProgressViewTests;
+			productName = BDVProgressViewTests;
+			productReference = 66DD832D193A597500312671 /* BDVProgressViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66DD8301193A597500312671 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BDV;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = dnepr;
+				TargetAttributes = {
+					66DD832C193A597500312671 = {
+						TestTargetID = 66DD8308193A597500312671;
+					};
+				};
+			};
+			buildConfigurationList = 66DD8304193A597500312671 /* Build configuration list for PBXProject "BDVProgressView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66DD8300193A597500312671;
+			productRefGroup = 66DD830A193A597500312671 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66DD8308193A597500312671 /* BDVProgressView */,
+				66DD832C193A597500312671 /* BDVProgressViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66DD8307193A597500312671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DD8323193A597500312671 /* Main_iPad.storyboard in Resources */,
+				66DD8328193A597500312671 /* Images.xcassets in Resources */,
+				66DD8320193A597500312671 /* Main_iPhone.storyboard in Resources */,
+				66DD8317193A597500312671 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66DD832B193A597500312671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DD8339193A597500312671 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66DD8305193A597500312671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DD8346193A59A600312671 /* BDVProgressView.m in Sources */,
+				66DD8319193A597500312671 /* main.m in Sources */,
+				66DD8326193A597500312671 /* BDVViewController.m in Sources */,
+				66DD831D193A597500312671 /* BDVAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66DD8329193A597500312671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DD833B193A597500312671 /* BDVProgressViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66DD8333193A597500312671 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66DD8308193A597500312671 /* BDVProgressView */;
+			targetProxy = 66DD8332193A597500312671 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66DD8315193A597500312671 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66DD8316193A597500312671 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		66DD831E193A597500312671 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66DD831F193A597500312671 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		66DD8321193A597500312671 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66DD8322193A597500312671 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		66DD8337193A597500312671 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66DD8338193A597500312671 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66DD833C193A597500312671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66DD833D193A597500312671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66DD833F193A597500312671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BDVProgressView/BDVProgressView-Prefix.pch";
+				INFOPLIST_FILE = "BDVProgressView/BDVProgressView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66DD8340193A597500312671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BDVProgressView/BDVProgressView-Prefix.pch";
+				INFOPLIST_FILE = "BDVProgressView/BDVProgressView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		66DD8342193A597500312671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BDVProgressView.app/BDVProgressView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BDVProgressView/BDVProgressView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BDVProgressViewTests/BDVProgressViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		66DD8343193A597500312671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BDVProgressView.app/BDVProgressView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BDVProgressView/BDVProgressView-Prefix.pch";
+				INFOPLIST_FILE = "BDVProgressViewTests/BDVProgressViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66DD8304193A597500312671 /* Build configuration list for PBXProject "BDVProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66DD833C193A597500312671 /* Debug */,
+				66DD833D193A597500312671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66DD833E193A597500312671 /* Build configuration list for PBXNativeTarget "BDVProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66DD833F193A597500312671 /* Debug */,
+				66DD8340193A597500312671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66DD8341193A597500312671 /* Build configuration list for PBXNativeTarget "BDVProgressViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66DD8342193A597500312671 /* Debug */,
+				66DD8343193A597500312671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66DD8301193A597500312671 /* Project object */;
+}
