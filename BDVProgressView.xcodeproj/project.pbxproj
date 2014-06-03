@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		665D0896193D435C00F093C9 /* BDVProgressViewS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665D0895193D435C00F093C9 /* BDVProgressViewS.swift */; };
 		66DD830D193A597500312671 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DD830C193A597500312671 /* Foundation.framework */; };
 		66DD830F193A597500312671 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DD830E193A597500312671 /* CoreGraphics.framework */; };
 		66DD8311193A597500312671 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DD8310193A597500312671 /* UIKit.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		665D0894193D435C00F093C9 /* BDVProgressView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BDVProgressView-Bridging-Header.h"; sourceTree = "<group>"; };
+		665D0895193D435C00F093C9 /* BDVProgressViewS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BDVProgressViewS.swift; sourceTree = "<group>"; };
 		66DD8309193A597500312671 /* BDVProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDVProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66DD830C193A597500312671 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		66DD830E193A597500312671 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -127,6 +130,8 @@
 				66DD8313193A597500312671 /* Supporting Files */,
 				66DD8344193A59A600312671 /* BDVProgressView.h */,
 				66DD8345193A59A600312671 /* BDVProgressView.m */,
+				665D0895193D435C00F093C9 /* BDVProgressViewS.swift */,
+				665D0894193D435C00F093C9 /* BDVProgressView-Bridging-Header.h */,
 			);
 			name = ProgressView;
 			path = BDVProgressView;
@@ -260,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				665D0896193D435C00F093C9 /* BDVProgressViewS.swift in Sources */,
 				66DD8346193A59A600312671 /* BDVProgressView.m in Sources */,
 				66DD8319193A597500312671 /* main.m in Sources */,
 				66DD8326193A597500312671 /* BDVViewController.m in Sources */,
@@ -398,10 +404,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BDVProgressView/BDVProgressView-Prefix.pch";
 				INFOPLIST_FILE = "BDVProgressView/BDVProgressView-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BDVProgressView/BDVProgressView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -411,10 +421,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BDVProgressView/BDVProgressView-Prefix.pch";
 				INFOPLIST_FILE = "BDVProgressView/BDVProgressView-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BDVProgressView/BDVProgressView-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

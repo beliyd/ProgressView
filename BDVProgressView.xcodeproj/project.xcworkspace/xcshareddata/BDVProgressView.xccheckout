@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A91DC54A-0D60-475B-A2C8-963671409845</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BDVProgressView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3D7A855A-E71D-487B-BA74-CA2C4B1C192F</key>
+		<string>https://github.com/beliyd/ProgressView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BDVProgressView.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3D7A855A-E71D-487B-BA74-CA2C4B1C192F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/beliyd/ProgressView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3D7A855A-E71D-487B-BA74-CA2C4B1C192F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3D7A855A-E71D-487B-BA74-CA2C4B1C192F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ProgressView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
