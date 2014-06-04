@@ -8,10 +8,11 @@
 
 #import "BDVViewController.h"
 #import "BDVProgressView.h"
+#import <BDVProgressView-Swift.h>
 
 @interface BDVViewController ()
 
-@property (weak, nonatomic) IBOutlet BDVProgressView *progressView;
+@property (weak, nonatomic) IBOutlet ProgressView *progressView;
 
 @property (weak, nonatomic) IBOutlet UISlider *slider;
 @end
